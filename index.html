@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak System</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        .container {
+            text-align: center;
+            max-width: 90%;
+        }
+        .gears {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .gear {
+            width: 60px;
+            height: 60px;
+            margin: 0 5px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+        .copyright {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #999;
+            background-color: #f0f0f0;
+        }
+        @media (min-width: 768px) {
+            .gear {
+                width: 80px;
+                height: 80px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .copyright {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <div class="gears">
+                <img src="setting.gif" alt="Blue Gear" class="gear">
+                
+            </div>
+            <h1>Speak System</h1>
+            <p>Speak System is under development</p>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2024 Gleendon Dablio. All rights reserved.
+    </div>
+</body>
+</html>
